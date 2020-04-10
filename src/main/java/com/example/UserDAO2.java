@@ -1,7 +1,9 @@
 package com.example;
 
+import javax.ejb.Stateless;
 import java.sql.Connection;
 
+@Stateless
 public class UserDAO2 {
 
 	public Connection getConnFromPool(int i) {
